@@ -7,11 +7,10 @@ int readArr(int* arr) {
         }
     }
     if (getchar() != '\n') {
-            return 0;
+        return 0;
     }
     return 1;
 }
-
 
 void bubbleSort(int* arr) {
     for (int i = 0; i < 9; i++) {
